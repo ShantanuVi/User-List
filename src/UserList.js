@@ -35,7 +35,7 @@ const UserList = () => {
                                 <Td>{user.name}</Td>
                                 <Td>({user.username})</Td>
                                 <Td>{user.address.city}</Td>
-                                <Td><Button
+                                <Td><Button colorScheme='teal' variant='outline'
                                     onClick={() => setSelectedUser(user)}
                                     aria-label={`View details for ${user.name}`}>
                                     View details
